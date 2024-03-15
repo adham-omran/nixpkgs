@@ -26,7 +26,7 @@ stdenv.mkDerivation rec {
     branchName = "release-xt/${version}";
     fetchSubmodules = true;
     leaveDotGit = true;
-    sha256 = "sha256-q6qs/OhIakF+Gc8Da3pnfkUGYDUoJbvee0o8dfrRI2U=";
+    sha256 = "sha256-odJS0qi8Q4f6a1nZbdtFOMRPmB82dtdOKHGgp9QlXYA=";
   };
 
   nativeBuildInputs = [
